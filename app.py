@@ -2,7 +2,7 @@ from flask import Flask
 import os
 
 app = Flask(__name__)
-
+# adding comment to test cloud build trigger
 @app.route("/")
 def wish():
     message = "Happy birthday {name}"
